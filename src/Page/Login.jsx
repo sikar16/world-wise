@@ -31,7 +31,7 @@ export default function Login() {
         </div>
 
         <div>
-          <button>Login</button>
+          <button type='primary'>Login</button>
         </div>
       </form>
     </main>
