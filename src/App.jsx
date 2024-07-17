@@ -5,11 +5,11 @@ import Pricing from "./Page/Pricing"
 import PagenotFound from "./Page/PageNotFound"
 import AppLayout from "./Page/AppLayout"
 import Login from "./Page/Login"
-import CityList from "./Component/CityList"
-// import { useEffect, useState } from "react"
+4// import { useEffect, useState } from "react"
 import CountriesList from "./Component/CountriesList"
 import City from "./Component/City"
 import Form from "./Component/Form"
+import CityList from './Component/CityList'
 import { Cityprovider, useCity } from "./Context/CityContext"
 function App() {
 

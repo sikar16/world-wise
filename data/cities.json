@@ -35,7 +35,54 @@
         "lng": 13.376933665713324
       },
       "id": "98443197"
+    },
+    {
+      "id": "eb69",
+      "cityName": "Langeron",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-07-12T10:08:45.485Z",
+      "notes": "ee",
+      "position": {
+        "lat": "46.802541693701556",
+        "lng": "3.0761718750000004"
+      }
+    },
+    {
+      "id": "5562",
+      "cityName": "Ellgau",
+      "country": "Germany",
+      "emoji": "🇩🇪",
+      "date": "2024-07-16T14:40:08.261Z",
+      "notes": "",
+      "position": {
+        "lat": "48.58972437508997",
+        "lng": "10.84906705173122"
+      }
+    },
+    {
+      "id": "c244",
+      "cityName": "La Llagonne",
+      "country": "France",
+      "emoji": "🇫🇷",
+      "date": "2024-07-16T14:40:30.664Z",
+      "notes": "",
+      "position": {
+        "lat": "42.52186502706502",
+        "lng": "2.1040555080386403"
+      }
+    },
+    {
+      "id": "6114",
+      "cityName": "Villarluengo",
+      "country": "Spain",
+      "emoji": "🇪🇸",
+      "date": "2024-07-16T14:50:08.048Z",
+      "notes": "",
+      "position": {
+        "lat": "40.59968239009476",
+        "lng": "-0.5053710937500001"
+      }
     }
-   
   ]
 }
