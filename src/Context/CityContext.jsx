@@ -1,4 +1,4 @@
-import { createContext, useContext, useEffect, useReducer, useState } from "react";
+import { createContext, useCallback, useContext, useEffect, useReducer, } from "react";
 
 const CityContext = createContext()
 const BASE_URL = "http://localhost:9000"
@@ -90,7 +90,7 @@ function Cityprovider({ children }) {
     }, [])
 
 
-    async function getCity(id) {
+    const getCity = useCallback(async function getCity(id) {
         if (Number(id) === currentCity.id) return;
         dispatch({ type: 'loading' })
         try {
@@ -105,7 +105,7 @@ function Cityprovider({ children }) {
         }
 
 
-    }
+    }, [currentCity.id])
 
 
 
